@@ -26,3 +26,4 @@ for a1 in lines:
     cv2.line(image,(x1,y1),(x2,y2),(0,0,250),2)
 cv2.imshow('Hough lines',image)
 cv2.waitKey()
+cv2.destroyAllWindows()

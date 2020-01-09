@@ -2,7 +2,6 @@ import cv2
 import numpy as np
 
 # ___________________LINE DETECTION___________________
-
 image = cv2.imread('su.png')
 cv2.imshow('real',image)
 print(image.shape)
